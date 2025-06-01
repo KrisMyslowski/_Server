@@ -45,24 +45,6 @@ namespace CONSTANTS
     }
 }
 
-// EXAMPLE MESSAGE FORMAT
-// GET: {"request":"<get>","path":"<path.to.value>"}
-// SET: {"request":"<set>","path":"<path.to.value>","value":"<value>"}
-
-// GET DUMMYS
-// {"request":"get","path":"description"}
-// {"request":"get","path":"safety.emergency_shutdown.enabled"}
-// {"request":"get","path":"snowmaking_system.settings.air_pressure.value"}
-// {"request":"get","path":"snowmaking_system.maintenance.last_serviced"}
-// {"request":"get","path":"valves.valve3.status"}
-
-// SET DUMMYS
-// {"request":"set","path":"description","value":"new_description"}
-// {"request":"set","path":"safety.manual_override.enabled","value":false}
-// {"request":"set","path":"snowmaking_system.settings.fan_speed.value","value":1800}
-// {"request":"set","path":"valves.valve1.status","value":"closed"}
-// {"request":"set","path":"snowmaking_system.operational_conditions.temperature_min","value":-10}
-
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
