@@ -1,0 +1,60 @@
+# === Qt Creator ===
+*.autosave
+*.pro.user*
+*.qbs.user*
+*.qmlproject.user*
+*.creator.*
+*.user
+
+# === Qt build artefacts ===
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.app
+*.moc
+*.rcc
+*.qrc.depends
+*.qrc.cpp
+*.moc.cpp
+*.pro.user
+Makefile*
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+moc_*.cpp
+ui_*.h
+
+# === Build folders ===
+build/
+build-*/
+out/
+bin/
+debug/
+release/
+
+# === Qt specific ===
+*.qmake.stash
+*.qmake.cache
+
+# === VSCode ===
+.vscode/
+
+# === Logs / Temp ===
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === JSON examples or config backups ===
+*.bak.json
+*.backup.json

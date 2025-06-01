@@ -1,0 +1,54 @@
+{
+  "description": "new_description23",
+  "last_serviced": "placeholder_last_serviced",
+  "safety": {
+    "emergency_shutdown": {
+      "description": "placeholder_emergency_shutdown_description",
+      "enabled": true,
+      "trigger_condition": "placeholder_trigger_condition"
+    },
+    "manual_override": {
+      "description": "placeholder_manual_override_description",
+      "enabled": true
+    }
+  },
+  "system": {
+    "maintenance": {
+      "last_serviced": "YYYY-MM-DD",
+      "service_description": "placeholder_service_description",
+      "service_interval": "placeholder_service_interval"
+    },
+    "manufacturer": "placeholder_manufacturer",
+    "model": "placeholder_model",
+    "operational_conditions": {
+      "description": "placeholder_operational_conditions_description",
+      "humidity_max": 100,
+      "humidity_min": 0,
+      "temperature_max": 100,
+      "temperature_min": -100,
+      "wind_speed_max": 100
+    }
+  },
+  "elements": {
+    "element1": {
+      "feedback": false,
+      "name": "placeholder_valve1_name",
+      "status": "placeholder_status"
+    },
+    "element2": {
+      "feedback": false,
+      "name": "placeholder_valve2_name",
+      "status": "placeholder_status"
+    },
+    "element3": {
+      "feedback": false,
+      "name": "placeholder_valve3_name",
+      "status": "placeholder_status"
+    },
+    "element4": {
+      "feedback": false,
+      "name": "placeholder_valve4_name",
+      "status": "placeholder_status"
+    }
+  }
+}
