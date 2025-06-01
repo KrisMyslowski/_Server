@@ -1,4 +1,3 @@
-
 # Qt TCP Server with Config Viewer
 A lightweight Qt-based project for handling JSON-based TCP commands via a configurable server — optionally with a graphical user interface for configuration and display.
 
@@ -44,12 +43,17 @@ make
 ## Communication
 The server accepts simple JSON messages over TCP.
 
-### GET-Format
-```JSON
-GET: {"request":"<get>","path":"<path.to.value>"}
+### Telnet
+```bash
+telnet 127.0.0.1 <port>
 ```
 
-#### Dummys
+### GET
+```JSON
+{"request":"get","path":"<path.to.value>"}
+```
+
+#### GET-Dummys
 ```JSON
 {"request":"get","path":"description"}
 {"request":"get","path":"safety.emergency_shutdown.enabled"}
@@ -58,12 +62,12 @@ GET: {"request":"<get>","path":"<path.to.value>"}
 {"request":"get","path":"elements.element3.status"}
 ```
 
-### SET-Format
+### SET
 ```JSON
-SET: {"request":"<set>","path":"<path.to.value>","value":"<value>"}
+{"request":"<set>","path":"<path.to.value>","value":"<value>"}
 ```
 
-#### Dummys
+#### SET-Dummys
 ```JSON
 {"request":"set","path":"description","value":"new_description"}
 {"request":"set","path":"safety.manual_override.enabled","value":false}
